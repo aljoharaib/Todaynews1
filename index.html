@@ -25,116 +25,83 @@
     <!-- nav -->
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand fs-3" href="#"><i class="fa-brands fa-neos"></i>
+        <a class="navbar-brand fs-3" href="#"
+          ><i class="fa-brands fa-neos"></i>
           Today News
         </a>
       </div>
     </nav>
     <!-- header -->
     <header>
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/icon-Weather.png" class="d-block img-fluid w-100% h-100%" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/Weather-cuate.png" class="d-block img-fluid  w-100% h-100%" alt="..." />
-          </div>
-          <div class="carousel-item">
-            <img src="img/Umbrella-amico.png" class="d-block img-fluid  w-100% h-100%" alt="..." />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+              <div class="card  bg-dark text-light d-flex align-items-center justify-content-center   ">
+                <div class="search">
+                  <input type="text" class="search-bar">
+                  <button><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-search " viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></button>
+                </div>
+                <div class="weather">
+                  <h4 class="city">Weather in riyadh</h4>
+                  <div class="temp">51°C</div>
+                  <div class="description">Cloudy</div>
+                  <div class="humidity">Humidity</div>
+                  <div class="wind">Wind speed: 6.2 km/h</div>
+                </div>
+              </div>       
     </header>
-    <!-- <div class="aside-panel">
-      <ul>hubh
-<li><a href="index.html">
-  <i class="fa-solid fa-atom-simple"></i>
-  <span>politics</span>
-</a></li>
-<li><a href="index.html">
-  <i class="fa-solid fa-atom-simple"></i>
-  <span>politics</span>
-</a></li>
-</ul>vuyuy
-    </div> -->
-<!-- footer -->
-<div class="container justify-content-between">
-<footer class="py-4 ">
-<div class="row">
-  <div class="col-1">
-    <h5>Links</h5>
-    <ul class="nav flex-column">
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-    </ul>
-  </div>
-  <div class="col-3 offset-1 ">
-    <form>
-      <h5>Subscribe to our Today News</h5>
-      <p>Monthly digest of whats new from us.</p>
-      <div class="d-flex w-100 gap-2">
-        <label for="newsletter1" class="visually-hidden">Email address</label>
-        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-        <button class="btn btn-primary bg-dark" type="button">Subscribe</button>
-      </div>
-    </form>
-  </div>
-  <div class="col-7"><a class="navbar-brand text-dark fs-1 justify-content-center mx-5 " href="#"><i class="fa-brands fa-neos"></i>
-    Today News
-  </a></div>
-</div>
+    <!-- footer -->
+    <div class="container justify-content-between mt-5">
+      <footer class="py-4">
+        <div class="row">
+          <div class="col-1">
+            <h5>Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3 offset-1">
+            <form>
+              <h5>Subscribe to our Today News</h5>
+              <p>Monthly digest of whats new from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-primary bg-dark" type="button">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-7">
+            <a
+              class="navbar-brand text-dark fs-1 justify-content-center mx-5"
+              href="#"
+              ><i class="fa-brands fa-neos"></i>
+              Today News
+            </a>
+          </div>
+        </div>
 
-<div class="d-flex justify-content-between py-4 my-4 border-top ">
-  <p>&copy; 2022 copyright, All rights reserved by aljawhara.</p>
-</div>
-</footer>
-</div>
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2022 copyright, All rights reserved by aljawhara.</p>
+        </div>
+      </footer>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
