@@ -37,6 +37,18 @@ button{
   opacity: 98%;
   margin: 1em;
 }
+.weather .loading {
+visibility:hidden ;
+max-height: 20px;
+position: absolute ;
+
+}
+.weather .loading:after {
+  visibility:visible;
+  content: "loading...";
+  color: white;
+  position: absolute;
+}
 .bg-purple {
     color: white!important;
     background: linear-gradient( #548687, rgb(84, 134, 135))!important;
