@@ -84,4 +84,27 @@ position: absolute ;
     margin-bottom: 3!important;
    
   }
+  .wrapper ul {
+    display: flex;
+    color: #afb4b4;
+    padding: 8px;
+    border-radius: 50px;
+    height: 78px;
+    align-items: center !important;
+    justify-content: center;
+  }
+  .wrapper ul li {
+    list-style-type: none;
+    line-height: 18px;
+font-weight: 600;
+font-size: 19px;
+text-align: center;
+cursor: pointer;
+background-color: #afb4b4;
+margin: 13px;
+border-radius: 50px;
+color: rgb(248, 249, 250);
+margin-top: 5;
+padding: 10px;
+  }
   

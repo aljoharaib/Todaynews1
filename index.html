@@ -20,12 +20,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<script>
-    Weglot.initialize({
-        api_key: 'wg_81d0298f17d21521bfa1b226b1f153b14'
-    });
-</script>
+
   </head>
   <body>
     <!-- nav -->
@@ -60,7 +55,7 @@
           </button>
         </div>
         <div class="weather loading">
-          <h4 class="city">Weather in riyadh</h4>
+          <h4 class="city">Weather in  riyadh</h4>
           <img class="icon" src="" alt="" />
           <div class="temp">51°C</div>
           <div class="description">Cloudy</div>
@@ -77,11 +72,17 @@
     <aside>
     <div id="headings" class="nav-scoller  d-flex mb-4 mt-4 align-items-center justify-content-center ">
       <a class="p-2 link-secondary" id="science">science</a>
-      <a   class="p-2 link-secondary" id="health"><i class="fa fa-hospital-user"></i></a>
-      <a   class="p-2 link-secondary" id="world"><i class="fa-solid fa-globe"></i></a>
-      <a   class="p-2 link-secondary" id="business"><i class="fa-solid fa-briefcase"></i></a>
+      <a   class="p-2 link-secondary" id="health">health</a>
+      <a   class="p-2 link-secondary" id="entertainment">entertainment</a>
+      <a   class="p-2 link-secondary" id="business">business</a>
     </div>
   </aside>
+  <!-- search -->
+  <form >
+<input type="text" id="news-search" style="width:40vh " class="form-1 d-inline-block w-90 h-90" placeholder="search for news"
+>
+<button type="button" id="btn-search" class="btn btn-primary bg-dark">search</button>
+  </form>
     <!-- card news -->
     <div class="container mt-5 border-top">
       <div id="news" class="row mb-3">
@@ -124,21 +125,28 @@
           </div>
         </div>
       </div>
-      <div class="text-center">
-        <ul class="pagination">
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item active" aria-current="page">
-            <a class="page-link" href="#">2</a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">Next</a>
-          </li>
-        </ul>
+      <div class="wrapper border-top">
+<ul>
+<li class="btn"><i class="fas fa-angle-left"></i></li>
+<li class="numb"><span>1</span></li>
+<li class="numb active"><span>2</span></li>
+<li class="btn next"><i class="fas fa-angle-right"></i></li>
+</ul>
+
+
       </div>
+      <!-- <div class="text-center">
+      <button class="page paginate mx-2" id="prev" disabled>
+        <a href="#">&laquo;</a>
+      </button>
+      <button class="page paginate mx-2" id="next">
+        <a href="#">&raquo;</a>
+
+      </button>
+      </div> -->
     </div>
     <!-- footer -->
-    <div class="container justify-content-between mt-5">
+    <div class="container justify-content-between mt-5 border-top">
       <footer class="py-4">
         <div class="row">
           <div class="col-1">
@@ -177,9 +185,9 @@
           </div>
           <div class="col-7">
             <a
-              class="navbar-brand text-dark fs-1 justify-content-center mx-5"
+              class="navbar-brand text-dark fs-1 justify-content-center mx-5  border-top"
               href="#"
-              ><i class="fa-brands fa-neos"></i>
+              ><i class="fa-brands fa-neos  "></i>
               Today News
             </a>
           </div>
@@ -201,6 +209,13 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+    <script>
+        Weglot.initialize({
+            api_key: 'wg_81d0298f17d21521bfa1b226b1f153b14'
+        });
+    </script>
+    
     <script src="js/script.js" defer></script>
     <script src="js/newsAPI.js"></script>
   </body>
