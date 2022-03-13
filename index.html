@@ -70,7 +70,7 @@
     </div>
     <!-- navscoller -->
     <aside>
-    <div id="headings" class="nav-scoller  d-flex mb-4 mt-4 align-items-center justify-content-center ">
+    <div id="headings" class="nav-scoller   d-flex mb-4 mt-4 align-items-center justify-content-center ">
       <a class="p-2 link-secondary" id="science">science</a>
       <a   class="p-2 link-secondary" id="health">health</a>
       <a   class="p-2 link-secondary" id="entertainment">entertainment</a>
@@ -79,9 +79,9 @@
   </aside>
   <!-- search -->
   <form >
-<input type="text" id="news-search" style="width:40vh " class="form-1 d-inline-block w-90 h-90" placeholder="search for news"
+<input type="text" id="news-search" style="width:40vh " class="form-1 d-inline-block w-90 h-90 align-items-center justify-content-center " placeholder="search for news"
 >
-<button type="button" id="btn-search" class="btn btn-primary bg-dark">search</button>
+<button type="button" id="btn-search" class="btn btn-primary bg-dark align-items-center justify-content-center "><i class="fa fa-search"></i></button>
   </form>
     <!-- card news -->
     <div class="container mt-5 border-top">
@@ -125,25 +125,11 @@
           </div>
         </div>
       </div>
-      <div class="wrapper border-top">
-<ul>
-<li class="btn"><i class="fas fa-angle-left"></i></li>
-<li class="numb"><span>1</span></li>
-<li class="numb active"><span>2</span></li>
-<li class="btn next"><i class="fas fa-angle-right"></i></li>
-</ul>
+      <div class="wrapper ">
 
+<button id="next"><i class="fas fa-angle-left"></i></button>
+<button id="prev"><i class="fas fa-angle-right"></i></button>
 
-      </div>
-      <!-- <div class="text-center">
-      <button class="page paginate mx-2" id="prev" disabled>
-        <a href="#">&laquo;</a>
-      </button>
-      <button class="page paginate mx-2" id="next">
-        <a href="#">&raquo;</a>
-
-      </button>
-      </div> -->
     </div>
     <!-- footer -->
     <div class="container justify-content-between mt-5 border-top">
@@ -185,7 +171,7 @@
           </div>
           <div class="col-7">
             <a
-              class="navbar-brand text-dark fs-1 justify-content-center mx-5  border-top"
+              class="navbar-brand text-dark fs-1 justify-content-center mx-5 "
               href="#"
               ><i class="fa-brands fa-neos  "></i>
               Today News
@@ -210,7 +196,7 @@
       crossorigin="anonymous"
     ></script>
     <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-    <script>
+    <script >
         Weglot.initialize({
             api_key: 'wg_81d0298f17d21521bfa1b226b1f153b14'
         });

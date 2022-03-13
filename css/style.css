@@ -15,6 +15,28 @@ header{
   background-position: center;
   background-attachment: fixed;
 }
+#news-search {
+  background: #7c7c7c2b;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  width: 8vh;
+  margin-left: 1em;
+  height: 6vh;
+  align-items: center;
+  justify-content: center;
+}
+#btn-search {
+  background: #ffffff2b;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  height: 5.9vh;
+  width: 6vh;
+  justify-content: center;
+
+  align-items: center;
+}
 .search-bar{
   background: #7c7c7c2b;
   border-radius: 8px;
@@ -34,7 +56,7 @@ button{
   width: 100%;
   max-width: 420px;
   border-radius: 30px;
-  opacity: 98%;
+  opacity: 80%;
   margin: 1em;
 }
 .weather .loading {
@@ -84,24 +106,28 @@ position: absolute ;
     margin-bottom: 3!important;
    
   }
-  .wrapper ul {
+  .wrapper {
     display: flex;
     color: #afb4b4;
     padding: 8px;
     border-radius: 50px;
     height: 78px;
     align-items: center !important;
-    justify-content: center;
+    justify-content: center  !important;
   }
-  .wrapper ul li {
+  .wrapper  {
     list-style-type: none;
     line-height: 18px;
 font-weight: 600;
 font-size: 19px;
+width: 10vh;
 text-align: center;
+align-items: center  !important;
+justify-content: center  !important;
 cursor: pointer;
 background-color: #afb4b4;
 margin: 13px;
+height: 5vh;
 border-radius: 50px;
 color: rgb(248, 249, 250);
 margin-top: 5;
